@@ -26,18 +26,26 @@
   
         <div id="soru">
           
-          <h2 class="quiz-question"> - </h2>
-          <ul data-quiz-question="1">
-            <li class="quiz-answer" data-quiz-answer="a"> - </li>
-            <li class="quiz-answer" data-quiz-answer="b"> - </li>
-            <li class="quiz-answer" data-quiz-answer="c"> - </li>
-            <li class="quiz-answer" data-quiz-answer="d"> - </li>
-          </ul>     
+          <h2 class="quiz-question" id= "soru_kismi"> - </h2>
+          <div data-quiz-question="1">
+            <input type="radio" name="cevap" id = "a"> - </input>
+            <label for="a" id="label-a"></label>
+            <br>
+            <input type="radio" name="cevap" id = "b"> - </input>
+            <label for="b" id="label-b"></label>
+            <br>
+            <input type="radio" name="cevap" id = "c"> - </input>
+            <label for="c" id="label-c"></label>
+            <br>
+            <input type="radio" name="cevap" id = "d"> - </input>
+            <label for="d" id="label-d"></label>
+            <br>
+          </div>     
 
         </div>   
      
       <div id="quiz-results">
-        <button type="button" name="button" class="submit" id="submit" onclick="answers(true)"></button>
+        <button id="gec" class="gecButon" onclick="gec()"> Geç</button>
     </div>
 </div>
 
